@@ -1,3 +1,4 @@
 # Web 2 Starter
 
-Put information about your project here. 
+Hey All,
+My name is Kaitlyn and this is a very simple weather app. ENJOY!
