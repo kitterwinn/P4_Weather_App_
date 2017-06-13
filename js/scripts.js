@@ -12,7 +12,7 @@ $.simpleWeather({
       
       // Display Data
 	  $('#spokane .currently').text(weather.currently);
-      $('#spoakne .temp').text(weather.temp);
+      $('#spokane .temp').text(weather.temp);
       $('#spokane .city').text(weather.city);
       $('#spokane img').attr('src', weather.image);
 	  $('#spokane .today').text(weather.forecast[0].day + ', ' + weather.forecast[0].date);

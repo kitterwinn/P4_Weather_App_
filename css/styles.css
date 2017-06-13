@@ -2,16 +2,9 @@ body {
 	font-family: 'Pacifico', cursive;
     float: left
 	line-height: 1em;
-	color: darkseagreen;
+	color: whitesmoke;
 	background: lightseagreen;
 }
-.wrapper {
-	width: 100%;
-	min-height: 100%;
-
-}
-
-
 
 section {
   min-height: 100%;
@@ -22,7 +15,7 @@ section {
 
 
 .info {
-	margin: 7em 0 0 0;
+	margin: 3em 0 0 0;
 } 
 h3, h1 {
     width:100%;
@@ -46,18 +39,20 @@ section i:first-child {
 width: 100%;
   font-family: weather;
   font-size:6em;
+    font-style: normal;
   line-height: 1;
   text-align: center;
-	color: white;
+	color: whitesmoke;
 	position: absolute;
-	margin-top: .5em;
+	margin-top: .97em;
     margin-bottom: .5em;
 }
-/*-----forecast------*/
+/*-----forecast bullcrapolla------*/
 i {
   font-family: weather;
   font-size:3em;
   line-height: 1;
+    text-align: center;
 	color: white;
 	margin-top: 4px;
     margin-bottom: 4px;
@@ -68,7 +63,7 @@ figure {
 	flex-direction: row;
 	justify-content:space-between;
 	margin: 0px;	
-	border-bottom: solid 2px white;
+	border-bottom: dashed 2px white;
 }
 figure:last-child {
 	border-bottom: none;
@@ -99,13 +94,6 @@ background: darkblue;
 .bad {
 background: darkgray; 
 }
-
-
-
-
-
-
-
 
 /********************
 MEDIA QUERIES
