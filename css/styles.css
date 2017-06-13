@@ -1,0 +1,218 @@
+body {
+	font-family: 'Pacifico', cursive;
+    float: left
+	line-height: 1em;
+	color: darkseagreen;
+	background: lightseagreen;
+}
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+a {
+	text-decoration: none;
+	color: lightseagreen;
+}
+li a {
+	width: 100%;
+	padding: .5em .5em .5em 0;
+    margin-left: 100%;
+}
+
+li a:active  {
+	background: white;
+	color: black;
+}
+
+.places {
+  list-style-type: none;
+	margin: 0 0 0 2em;
+	padding: 0;
+	
+}
+li {
+	width: 100%;
+	padding: .5em 0;
+	border-top: solid 4px white;
+}
+li:nth-child(1) {
+	border-top: none;
+	margin: 2em 2em 2em 0;
+}
+#logo {
+	width: 12em;
+	padding: 0;
+	margin-top: 2em;
+}
+li:nth-child(2) {
+	margin-bottom: 4em;
+}
+
+/*Section Containers*/
+section {
+  min-height: 100%;
+  position: absolute;
+  width: 100%;
+  background: black;
+}
+
+:target {
+  z-index: 1;
+}
+.target {
+	z-index: 2;
+}
+/*Minimal initial style of sidebar*/
+.sidr {
+    display: block;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+    width: 16em;
+    overflow-x: hidden;
+    overflow-y: auto;
+	background: #2c2c2c;
+	box-shadow: inset -20px -30px 100px -20px black;
+    }
+
+.left {
+        left: -16em;
+        right: auto;
+}
+
+/*initial section styling*/
+.info {
+	margin: 11em 0 0 0;
+} 
+h3, h1 {
+	text-align: right;
+	border-top: solid 4px white;
+	padding:16px 0;
+	margin: 0 32px 0 0;
+}
+.temp {
+	font-size: 4em;
+	line-height: 1;
+}
+#city {
+	padding-bottom: 0;
+}
+.today {
+	border: none;
+	padding-top: 0;
+}
+
+section i:first-child {
+  font-family: weather;
+  font-size:10em;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  text-transform: none;
+	color: white;
+	text-shadow: 0 0 20px white;
+/*	border-bottom: solid 4px;*/
+/*	padding-bottom: 0;*/
+	padding-left:100%; 
+	position: absolute;
+	right:32px;
+	margin: 0;
+}
+/*-----forecast------*/
+i {
+  font-family: weather;
+  font-size:3em;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  text-transform: none;
+	color: white;
+/*	border-bottom: solid 4px;*/
+	margin-top: 4px;
+}
+
+figure {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	margin: 0;	
+	border-bottom: dotted 4px white;
+}
+figure:last-child {
+	border-bottom: none;
+}
+.forecast {
+	margin: 0 32px 0 0;
+	padding: 1em 0 4em 32px;
+	border-top: solid 4px white;
+}
+
+/*-----button--------*/
+.geo {
+  position: fixed;
+  bottom: 0;
+	z-index: 2;
+  background: #2a2a2a;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+	font-family: 'Bitter', serif;
+color: white;
+	border: none;
+	border-top: solid 4px white;
+	box-shadow: inset 0px -10px 30px -10px black;
+}
+
+/********color changes for background**********/
+.sad {
+background: lavender;  
+}  
+.happy {
+background: lightpink; 
+; 
+}
+
+.wet {
+background: darkblue; 
+; 
+}
+
+.bad {
+background: darkgray; 
+}
+
+
+
+
+
+
+
+
+/********************
+MEDIA QUERIES
+*******************/
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+ 
+  
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+ 
+
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+
+
+}
