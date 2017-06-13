@@ -8,95 +8,30 @@ body {
 .wrapper {
 	width: 100%;
 	min-height: 100%;
-	margin: 0;
-	padding: 0;
+
 }
 
 
-a {
-	text-decoration: none;
-	color: lightseagreen;
-}
-li a {
-	width: 100%;
-	padding: .5em .5em .5em 0;
-    margin-left: 100%;
-}
 
-li a:active  {
-	background: white;
-	color: black;
-}
-
-.places {
-  list-style-type: none;
-	margin: 0 0 0 2em;
-	padding: 0;
-	
-}
-li {
-	width: 100%;
-	padding: .5em 0;
-	border-top: solid 4px white;
-}
-li:nth-child(1) {
-	border-top: none;
-	margin: 2em 2em 2em 0;
-}
-#logo {
-	width: 12em;
-	padding: 0;
-	margin-top: 2em;
-}
-li:nth-child(2) {
-	margin-bottom: 4em;
-}
-
-/*Section Containers*/
 section {
   min-height: 100%;
   position: absolute;
   width: 100%;
-  background: black;
+  background: darkseagreen;
 }
 
-:target {
-  z-index: 1;
-}
-.target {
-	z-index: 2;
-}
-/*Minimal initial style of sidebar*/
-.sidr {
-    display: block;
-    position: fixed;
-    top: 0;
-    height: 100%;
-    z-index: 999999;
-    width: 16em;
-    overflow-x: hidden;
-    overflow-y: auto;
-	background: #2c2c2c;
-	box-shadow: inset -20px -30px 100px -20px black;
-    }
 
-.left {
-        left: -16em;
-        right: auto;
-}
-
-/*initial section styling*/
 .info {
-	margin: 11em 0 0 0;
+	margin: 7em 0 0 0;
 } 
 h3, h1 {
-	text-align: right;
-	border-top: solid 4px white;
+    width:100%;
+	text-align: center;
 	padding:16px 0;
-	margin: 0 32px 0 0;
+	margin: 10px 0px 0px 0px;
 }
 .temp {
-	font-size: 4em;
+	font-size: 5em;
 	line-height: 1;
 }
 #city {
@@ -108,20 +43,15 @@ h3, h1 {
 }
 
 section i:first-child {
+width: 100%;
   font-family: weather;
-  font-size:10em;
-  font-weight: normal;
-  font-style: normal;
+  font-size:6em;
   line-height: 1;
-  text-transform: none;
+  text-align: center;
 	color: white;
-	text-shadow: 0 0 20px white;
-/*	border-bottom: solid 4px;*/
-/*	padding-bottom: 0;*/
-	padding-left:100%; 
 	position: absolute;
-	right:32px;
-	margin: 0;
+	margin-top: .5em;
+    margin-bottom: .5em;
 }
 /*-----forecast------*/
 i {

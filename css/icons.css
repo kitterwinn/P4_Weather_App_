@@ -9,8 +9,6 @@
     font-style: normal;
 }
 
-
-
 .icon-0:before { content: ":"; }
 .icon-1:before { content: "p"; }
 .icon-2:before { content: "S"; }
