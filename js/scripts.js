@@ -47,19 +47,19 @@ $.simpleWeather({
     $('#spokane figure:nth-child(5) img').attr('src', weather.forecast[4].image);
 
 		// Change Icon w/ Condition code
-      var phoenixIconCode = 'icon-' + weather.code;
-	  var phoenixIconCodeDay1 = 'icon-' + weather.forecast[0].code;
-	  var phoenixIconCodeDay2 = 'icon-' + weather.forecast[1].code;
-	  var phoenixIconCodeDay3 = 'icon-' + weather.forecast[2].code;
-	  var phoenixIconCodeDay4 = 'icon-' + weather.forecast[3].code;
-	  var phoenixIconCodeDay5 = 'icon-' + weather.forecast[4].code;
+      var spokaneIconCode = 'icon-' + weather.code;
+	  var spokaneIconCodeDay1 = 'icon-' + weather.forecast[0].code;
+	  var spokaneIconCodeDay2 = 'icon-' + weather.forecast[1].code;
+	  var spokaneIconCodeDay3 = 'icon-' + weather.forecast[2].code;
+	  var spokaneIconCodeDay4 = 'icon-' + weather.forecast[3].code;
+	  var spokaneIconCodeDay5 = 'icon-' + weather.forecast[4].code;
       
-		$('#spokane i:nth-child(1)').attr('class', phoenixIconCode );
-		$('#spokane .day1 i').attr('class', phoenixIconCodeDay1 );
-		$('#spokane .day2 i').attr('class', phoenixIconCodeDay2 );
-		$('#spokane .day3 i').attr('class', phoenixIconCodeDay3 );
-		$('#spokane .day4 i').attr('class', phoenixIconCodeDay4 );
-		$('#spokane .day5 i').attr('class', phoenixIconCodeDay5 );
+		$('#spokane i:nth-child(1)').attr('class', spokaneIconCode );
+		$('#spokane .day1 i').attr('class', spokaneIconCodeDay1 );
+		$('#spokane .day2 i').attr('class', spokaneIconCodeDay2 );
+		$('#spokane .day3 i').attr('class', spokaneIconCodeDay3 );
+		$('#spokane .day4 i').attr('class', spokaneIconCodeDay4 );
+		$('#spokane .day5 i').attr('class', spokaneIconCodeDay5 );
  
 		//get condition code
       

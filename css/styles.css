@@ -1,6 +1,5 @@
 body {
 	font-family: 'Pacifico', cursive;
-    float: left
 	line-height: 1em;
 	color: whitesmoke;
 	background: lightseagreen;
@@ -56,6 +55,7 @@ i {
 	color: white;
 	margin-top: 4px;
     margin-bottom: 4px;
+    text-decoration: none;
 }
 
 figure {
